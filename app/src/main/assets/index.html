@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/home.css"/>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			font-size: 14px;
+			font-family: "Microsoft YaHei","SimSun";
+			height: 8888px;
+		}
+		
+		.header{
+			height: 58px;
+
+			background-color: #191d3a;
+
+		}
+		.inner_h{
+			margin:0 auto;
+			width: 1000px;
+			
+		}
+		ul{
+			list-style: none;
+		}
+		h1{
+			float: left;
+		}
+		.inner_h li{
+
+			border-left: solid 1px #252947;
+			float:left;
+			line-height: 58px;
+			width: 100px;
+			text-align: center;
+		}
+		.inner_h li a{
+			display: block;
+			text-decoration: none;
+						
+			color: #818496;
+			
+
+		}
+		li a:hover{
+			color: white;
+			background-color: #252947;
+		}
+		li .current{
+			color: white;
+			background-color: #252947;
+
+		}
+		.last{
+			border-right: solid 1px #252947;
+		}
+		.box1{
+			padding-left: 48px;
+			padding-top: 12px;
+			float: left;
+
+		}
+		.banner{
+			height: 465px;
+			background: url(images/banner.jpg) no-repeat center top;
+		}
+		.content_c{
+			padding-top: 50px;
+			width: 1000px;
+			margin: 0 auto;
+		}
+		.product{
+			height: 229px;
+			border-bottom: solid 1px #DBE1E7;
+		}
+		.product li{
+			margin-right: 43px;
+			float: left;
+		}
+		.product li img{
+			width: 218px;
+		}
+		.product li .img_wid{
+			width: 217px;
+		}
+		.product li.cl_mr{
+			margin-right: 0px;
+		}
+		.product li h3{
+			line-height: 38px;
+			font-weight: bold;
+			text-align: center;
+			font-size: 14px;
+
+		}
+		.product li p{
+			font-size: 12px;
+			
+			text-align: center;
+		}
+		.product li p a{
+			font-size: 12px;
+			padding-right: 11px;
+			text-decoration: none;
+			color: #38b774;
+			background-image: url(myimages/trag.png);
+			background-repeat: no-repeat;
+			background-position: right 5px ;
+		}
+	</style>
+	
+</head>
+<body>
+	<div class="header">
+		<div class="inner_h">
+			<h1><img src="myimages\logo.png"></h1>
+			<ul>
+				<li><a href="#" class="current">首页</a></li>
+				<li><a href="#" >博雅游戏</a></li>
+				<li><a href="#" >博雅新闻</a></li>
+				<li><a href="#" >关于我们</a></li>
+				<li><a href="#" >客服中心</a></li>
+				<li class="last"><a href="#">投资者关系</a></li>
+			</ul>
+			<div class="box1">
+				<a href="#">
+					<img src="myimages/jrwm.png">
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="banner"></div>
+	<div class="content_c">
+		<div class="product">
+			<ul>
+				<li>
+					<p><img src="images\pro1.jpg"></p>
+					<h3>BPT宣传片</h3>
+					<p><a href="#">点击播放</a></p>
+				</li>
+				<li>
+					<p><img src="images\pro2.jpg"></p>
+					<h3>BPT宣传片</h3>
+					<p><a href="#">点击播放</a></p>
+				</li>
+				<li>
+					<p><img src="images\pro3.jpg"></p>
+					<h3>BPT宣传片</h3>
+					<p><a href="#">点击播放</a></p>
+				</li>
+				<li class="cl_mr">
+					<p><img class="img_wid" src="images\pro4.jpg"></p>
+					<h3>BPT宣传片</h3>
+					<p><a href="#">点击播放</a></p>
+				</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
